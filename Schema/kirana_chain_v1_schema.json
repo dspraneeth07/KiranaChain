@@ -1,0 +1,88 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "kirana_chain_v1_llguidance_log",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "turn",
+    "trajectory_id",
+    "settlement_state",
+    "ask_price",
+    "bid_price",
+    "current_offer",
+    "elasticity",
+    "posture",
+    "liquidity_stress",
+    "trust_score",
+    "monsoon_idx",
+    "festival_days_remaining",
+    "sentiment",
+    "gp_noise"
+  ],
+  "properties": {
+    "turn": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 8
+    },
+    "trajectory_id": {
+      "type": "string"
+    },
+    "settlement_state": {
+      "type": "string",
+      "enum": [
+        "In-Progress",
+        "Settled",
+        "Walked-Away",
+        "Credit-Denied"
+      ]
+    },
+    "ask_price": {
+      "type": "number"
+    },
+    "bid_price": {
+      "type": "number"
+    },
+    "current_offer": {
+      "type": "number"
+    },
+    "elasticity": {
+      "type": "number"
+    },
+    "posture": {
+      "type": "string",
+      "enum": [
+        "Dominant",
+        "Defensive",
+        "Cooperative",
+        "Desperate"
+      ]
+    },
+    "liquidity_stress": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 1
+    },
+    "trust_score": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 1
+    },
+    "monsoon_idx": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 1
+    },
+    "festival_days_remaining": {
+      "type": "integer"
+    },
+    "sentiment": {
+      "type": "number",
+      "minimum": -1,
+      "maximum": 1
+    },
+    "gp_noise": {
+      "type": "number"
+    }
+  }
+}
