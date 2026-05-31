@@ -144,21 +144,21 @@ Full mathematical specification: [`documentation/methodology.md`](documentation/
 
 <table>
 <tr>
-<td><img src="Plots/Settlement Outcome Distribution.png" width="250"/></td>
-<td><img src="Plots/Trust Score vs Default Risk.png" width="250"/></td>
+<td><img src="Plots/Settlement Outcome Distribution.png" width="600"/></td>
+<td><img src="Plots/Trust Score vs Default Risk.png" width="600"/></td>
 
 </tr>
 <tr>
-<td><img src="Plots/Commodity Wise Settlement Outcomes.png" width="250"/></td>
-<td><img src="Plots/Average Sentiment Evolution.png" width="250"/></td>
+<td><img src="Plots/Commodity Wise Settlement Outcomes.png" width="600"/></td>
+<td><img src="Plots/Average Sentiment Evolution.png" width="600"/></td>
 </tr>
 <tr>
-<td><img src="Plots/Turn Number Where Settlement Occurred.png" width="250"/></td>
-<td><img src="Plots/Geographic Tier vs Credit Allocation.png" width="250"/></td>
+<td><img src="Plots/Turn Number Where Settlement Occurred.png" width="600"/></td>
+<td><img src="Plots/Geographic Tier vs Credit Allocation.png" width="600"/></td>
 </tr>
 <tr>
-<td><img src="Plots/Liquidity Stress vs Negotiation Posture.png" width="250"/></td>
-<td><img src="Plots/Price Elasticity Distribution.png" width="250"/></td>
+<td><img src="Plots/Liquidity Stress vs Negotiation Posture.png" width="600"/></td>
+<td><img src="Plots/Price Elasticity Distribution.png" width="600"/></td>
 </tr>
 </table>
 
