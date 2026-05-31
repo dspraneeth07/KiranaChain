@@ -395,7 +395,7 @@ KiranaChain/
 │   └── kiranachain_v1_schema.json           # JSON Schema for llguidance_constrained_json_log
 │
 ├── notebooks/
-│   └── kiranachain_generator.ipynb          # Complete dataset generation pipeline
+│   └── kiranachain_generator.py          # Complete dataset generation pipeline
 │
 ├── documentation/
 │   ├── dataset_card.md
@@ -406,7 +406,6 @@ KiranaChain/
 ├── Plots/                                   # EDA visualizations 
 │
 ├── LICENSE                                  # MIT License
-├── CITATION.cff                             # GitHub citation metadata
 └── README.md
 ```
 
